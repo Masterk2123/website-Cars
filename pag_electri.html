@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- TIPO DE ESCRITURA ACEPTADA SU COMPATIBILIDAD Y MAS CARACTERISTICAS DE LA PAGINA -->
+    <meta charset="UTF-8">
+    <meta content="dark" name="color-scheme">
+    <meta content="origin" name="referrer">
+    <meta name="author" content="">
+    <meta name="description" content="actividad-programacion-web">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rayo Makween</title>
+    <link rel="icon" href="icons/logo.png">
+    <!--ACA SE LINKEA CDN DE BOOTSTRAP-->
+    <link 
+        rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <!--ACA LINKEAMOS EL estilo.css-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!--ACA COLOCAMOS EL NAVBAR QUE NOS ENTREGA BOOTSTRAP-->
+    <!-- CARACTERISTICAS PARA QUE LA PAGINA SEA RESPONSIVA -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary p-0" id="navcolor">
+        <div class="container-fluid p-1">
+    <!-- ACA COLOCAMOS EL LOGO DE LA EMPRESA EN EL LADO IZQUIERDO DE LA BARRA DE NAVEGACION -->
+    <a href="#"><img src="icons/logo.png" width="65" height="50"></a>
+    <!-- NOMBRAMOS LA EMPRESA EN LA BARRA DE NAVEGACION -->
+    <a class="navbar-brand" href="#" id="navletra">Rayo Makween</a>
+    <!-- CARACTERISTICAS DE LOS BOTONES EN LA BARRA DE NAVEGACION -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" 
+    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <!-- LINKS DE AS PAGINAS SELECCIONABLES -->
+        <div class="navbar-nav">
+        <a class="nav-link active" aria-current="page" href="index.html" id="navletra">Inicio</a>
+        <a class="nav-link" href="pag_caja.html" id="navletra">Trabajos Realizados</a>
+        <a class="nav-link" href="contacto.html" id="navletra">Contacto</a>
+        <a class="nav-link" href="nosotros.html" id="navletra">Sobre nosotros</a>
+        <a class="nav-link" href="registro.html" id="navletra">Crear cuenta</a>
+    </div>
+</div>
+</div>
+</nav>
+<div class="card-columns">
+    <div class="card">
+    <img class="card-img-top" src="images/ele.jpg" alt="Card image cap">
+    <div class="card-body">
+        <h5 class="card-title">Diagnostico <cite> "Los fusibles quemados"</cite></h5>
+        <p class="card-text">Circulación de la electricidad cortada en el automovil ya que los fusibles se encargan de proteger los diferentes dispositivos electrónicos que permiten que el coche funcione. Además, son los encargados de evitar sobrecargas en el sistema.
+            <cite>"El sistema de control electrónico es muy importante ya que administra cualquier función que requiera corriente eléctrica en un vehículo."</cite>
+        </p>
+    </div>
+    </div>
+    <div class="card ">
+        <img class="card  " src="images/cajaf.jpg" alt="Card image cap">
+    <blockquote class="blockquote mb-0 card-body">
+        <p>Listado de Materiales Utilizados: </p>
+        <small>
+        <ul>
+            <li>Multimetro.</li>
+            <li>Juego de fusibles.</li>
+            <li>Destornillador o pizas a eleccion.</li>
+            <li>Un ayudante, siempre que sea posible.</li>
+        </ul>
+    </small>
+    </blockquote>
+    </div>
+    <div class="card">
+    <img class="card-img-top" src="images/perelec.jpg" alt="Card image cap">
+    <div class="card-body">
+        <h5 class="card-title">El Mecanico "Pedro Alonso Huarte"</h5>
+        <p class="card-text">Electricista técnico con casi 2 años de experiencia en la gestión e instalación de diferentes sistemas eléctricos, paneles, placas y todo tipo de circuitos. Tecnico que se destaca en sus conocimientos y experiencias que han hecho que siempre se destaque la profesionalidad por encima de cualquier cosa.</p>
+    </div>
+    </div>
+    <div class="card bg-primary text-white text-center p-3">
+        <img class="card bg-primary" src="images/calen2.jpg" alt="Card image cap">
+        <blockquote class="blockquote mb-0">
+        <p>"22-02-2023"</p>
+        <footer class="blockquote-footer" >
+        <small style="color: black;"><cite>fecha de ingreso del vehiculo</cite></small>
+        </footer>
+    </blockquote>
+    </div>
+    <div class="card right">
+        <img class="card p-1 right" src="images/elec.jpg" alt="Card image cap">
+        <img class="card p-1 right" src="images/sens.png" alt="Card image cap">
+        <img class="card p-1 right" src="images/act.jpg" alt="Card image cap">
+    </div>
+</div>
+<div class="container-fluid" role="toolbar" aria-label="Toolbar with button groups">
+    <div class="justify-content-center"role="group" aria-label="First group">
+        <div class="col text-center">
+            <a href="pag_caja.html"><button type="button" class="btn btn-primary">1</button></a>
+            <a href="pag_electri.html"><button type="button" class="btn btn-primary">2</button></a>
+            <a href="pag_suspe.html"><button type="button" class="btn btn-primary">3</button></a>
+        </div>
+    </div>
+</div>
+<footer class="bg-light text-center text-lg-start">
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2023 Copyright:
+    <a class="text-dark" href="#">Rayo Makween</a>
+    </div>
+    <!-- Copyright -->
+</footer>
+</body>
+</html>

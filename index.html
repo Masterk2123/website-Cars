@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- TIPO DE ESCRITURA ACEPTADA SU COMPATIBILIDAD Y MAS CARACTERISTICAS DE LA PAGINA -->
+    <meta charset="UTF-8">
+    <meta content="dark" name="color-scheme">
+    <meta content="origin" name="referrer">
+    <meta name="author" content="Masterk2123">
+    <meta name="description" content="actividad-programacion-web">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rayo Makween</title>
+    <link rel="icon" href="icons/logo.png">
+    <!--ACA SE LINKEA CDN DE BOOTSTRAP-->
+    <link 
+        rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <!--ACA LINKEAMOS EL estilo.css-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!--ACA COLOCAMOS EL NAVBAR QUE NOS ENTREGA BOOTSTRAP-->
+    <!-- CARACTERISTICAS PARA QUE LA PAGINA SEA RESPONSIVA -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary p-0" id="navcolor">
+      <div class="container-fluid p-1">
+  <!-- ACA COLOCAMOS EL LOGO DE LA EMPRESA EN EL LADO IZQUIERDO DE LA BARRA DE NAVEGACION -->
+  <a href="#"><img src="icons/logo.png" width="65" height="50"></a>
+  <!-- NOMBRAMOS LA EMPRESA EN LA BARRA DE NAVEGACION -->
+  <a class="navbar-brand" href="#" id="navletra">Rayo Makween</a>
+  <!-- CARACTERISTICAS DE LOS BOTONES EN LA BARRA DE NAVEGACION -->
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" 
+  aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <!-- LINKS DE AS PAGINAS SELECCIONABLES -->
+      <div class="navbar-nav">
+        <a class="nav-link active" aria-current="page" href="index.html" id="navletra">Inicio</a>
+        <a class="nav-link" href="pag_caja.html" id="navletra">Trabajos Realizados</a>
+        <a class="nav-link" href="contacto.html" id="navletra">Contacto</a>
+        <a class="nav-link" href="nosotros.html" id="navletra">Sobre nosotros</a>
+        <a class="nav-link" href="registro.html" id="navletra">Crear cuenta</a>
+  </div>
+</div>
+</div>
+</nav>
+<!-- CARRUSEL -->
+<div class="container">
+  <div class="row">
+    <div class="col-md-8 mx-auto">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators"> <!-- indicadores -->
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner"> <!-- imagenes del carrusel -->
+          <div class="carousel-item active">
+            <a href="pag_caja.html"><img src="images/cajas-cambio.jpg" class="d-block w-100" alt="Imagen 1"></a>
+            <div class="carousel-caption">
+              <h3 id="navtitulo">Mantenimiento de la caja de cambio</h3> <!-- texto del carrusel -->
+            </div>
+          </div>
+          <div class="carousel-item">
+            <a href="pag_electri.html"><img src="images/electronica-automotriz.jpg" class="d-block w-100" alt="Imagen 2"></a>
+            <div class="carousel-caption">
+              <h3 id="navtitulo">Control de electricidad</h3>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <a href="pag_suspe.html"><img src="images/suspension-direccion.jpg" class="d-block w-100" alt="Imagen 3"></a>
+            <div class="carousel-caption">
+              <h3 id="navtitulo">Revisión de suspensiones</h3>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev"> <!-- botones del carrusel -->
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Siguiente</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<footer class="bg-light text-center text-lg-start">
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+  © 2023 Copyright:
+  <a class="text-dark" href="#">Rayo Makween</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+</body>
+</html>

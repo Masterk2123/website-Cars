@@ -1,0 +1,71 @@
+#navcolor {
+    background-color: rgb(152, 214, 243);
+    
+}
+
+#navletra {
+    color: black;
+    
+}
+
+#navtitulo{
+    color: white;
+    background-color: black;
+}
+
+.carousel-item img {
+    width: 500px;
+    height: 400px;
+}
+
+#registrocolor{
+    
+    height: 610px;
+    width: 750px;
+    padding: 30px  ; 
+    background-color: rgb(88, 190, 236);
+    border: solid rgb(138, 100, 226) ;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#error{
+    color: white;
+    background-color: red;
+    height: auto;
+    width: auto;
+}
+
+#succes{
+    color: white;
+    background-color: green;
+    height: auto;
+    width: auto;
+}
+
+#fondo{
+    background-color: rgb(152, 214, 243);
+}
+
+#titulonosotros{
+    background-color: rgb(152, 214, 243);
+}
+
+#contenedorgr {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    background-color: rgb(138, 100, 226);
+}
+
+#contenedorpq {
+    width: 30%;
+
+}

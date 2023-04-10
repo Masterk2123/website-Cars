@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- TIPO DE ESCRITURA ACEPTADA SU COMPATIBILIDAD Y MAS CARACTERISTICAS DE LA PAGINA -->
+    <meta charset="UTF-8">
+    <meta content="dark" name="color-scheme">
+    <meta content="origin" name="referrer">
+    <meta name="author" content="">
+    <meta name="description" content="actividad-programacion-web">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rayo Makween</title>
+    <link rel="icon" href="icons/logo.png">
+    <!--ACA SE LINKEA CDN DE BOOTSTRAP-->
+    <link 
+        rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <!--ACA LINKEAMOS EL estilo.css-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="fondo">
+    <!--ACA COLOCAMOS EL NAVBAR-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary p-0" id="navcolor">
+      <div class="container-fluid p-1">
+  <!-- ACA COLOCAMOS EL LOGO DE LA EMPRESA EN EL LADO IZQUIERDO DE LA BARRA DE NAVEGACION -->
+  <a href="#"><img src="icons/logo.png" width="65" height="50"></a>
+  <!-- NOMBRAMOS LA EMPRESA EN LA BARRA DE NAVEGACION -->
+  <a class="navbar-brand" href="#" id="navletra">Rayo Makween</a>
+  <!-- CARACTERISTICAS DE LOS BOTONES EN LA BARRA DE NAVEGACION -->
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" 
+  aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <!-- LINKS DE AS PAGINAS SELECCIONABLES -->
+      <div class="navbar-nav">
+        <a class="nav-link active" aria-current="page" href="index.html" id="navletra">Inicio</a>
+        <a class="nav-link" href="pag_caja.html" id="navletra">Trabajos Realizados</a>
+        <a class="nav-link" href="contacto.html" id="navletra">Contacto</a>
+        <a class="nav-link" href="nosotros.html" id="navletra">Sobre nosotros</a>
+        <a class="nav-link" href="registro.html" id="navletra">Crear cuenta</a>
+  </div>
+</div>
+</div>
+</nav>
+<!-- formulario de contacto-->
+
+<div class="container my-5" >
+    <h2>Datos de contacto</h2>
+    <form id="registrocolor">
+            <div class="form-row">
+              <div class="col">
+                <label>Nombre</label>
+                <input type="text" class="form-control" placeholder="Taeil">
+              </div>
+              <div class="col">
+                <label>Apellido</label>
+                <input type="text" class="form-control" placeholder="Moon">
+              </div>
+            </div>
+        <div class="form-row">
+          <div class="form-group col-md-7">
+            <label for="inputEmail4">Email</label>
+            <input type="email" class="form-control" id="inputEmail4" placeholder="MAAKEEEN@gmail.com">
+          </div>
+          <div class="form-group col-mb-5">
+            <label for="numero">Celular</label>
+            <input type="tel" class="form-control" id="numero" name="numero">
+          </div>
+        </div>
+        
+        <div class="form-group">
+          <label for="direccion">Dirección</label>
+          <input type="text" class="form-control" id="direccion" placeholder=" 124 santa clara">
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="ciudad">Ciudad</label>
+            <input type="text" class="form-control" id="ciudad">
+          </div>
+          <div class="form-group col-md-4">
+            <label for="region">Región</label>
+            <select id="region" class="form-control">
+              <option selected>Region Metropolitana</option>
+              <option>Región de Arica y Parinacota</option>
+              <option>Región de Tarapacá</option>
+              <option>Región de Antofagasta</option>
+              <option>Región de Atacama</option>
+              <option>Región de Coquimbo</option>
+              <option>Región de Valparaíso</option>
+              <option>Región de O'Higgins</option>
+              <option>Región del Maule</option>
+              <option>Región deL Ñuble</option>
+              <option>Región del BIOBIO</option>
+              <option>Región de la Araucanía</option>
+              <option>Región de los Ríos</option>
+              <option>Región de los Lagos</option>
+              <option>Región de Aysén</option>
+              <option>Region de Magallanes</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group col-6" >
+            <label for="mensaje">Mensaje</label>
+            <textarea class="form-control" id="mensaje" rows="4"></textarea>
+          </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+        </div>
+      </form>
+</div>
+</body>
+</html>

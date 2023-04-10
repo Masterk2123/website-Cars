@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- TIPO DE ESCRITURA ACEPTADA SU COMPATIBILIDAD Y MAS CARACTERISTICAS DE LA PAGINA -->
+    <meta charset="UTF-8">
+    <meta content="dark" name="color-scheme">
+    <meta content="origin" name="referrer">
+    <meta name="author" content="">
+    <meta name="description" content="actividad-programacion-web">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rayo Makween</title>
+    <link rel="icon" href="icons/logo.png">
+    <!--ACA SE LINKEA CDN DE BOOTSTRAP-->
+    <link 
+        rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <!--ACA LINKEAMOS EL estilo.css-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="fondo">
+    <!--ACA COLOCAMOS EL NAVBAR-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary p-0" id="navcolor">
+      <div class="container-fluid p-1">
+  <!-- ACA COLOCAMOS EL LOGO DE LA EMPRESA EN EL LADO IZQUIERDO DE LA BARRA DE NAVEGACION -->
+  <a href="#"><img src="icons/logo.png" width="65" height="50"></a>
+  <!-- NOMBRAMOS LA EMPRESA EN LA BARRA DE NAVEGACION -->
+  <a class="navbar-brand" href="#" id="navletra">Rayo Makween</a>
+  <!-- CARACTERISTICAS DE LOS BOTONES EN LA BARRA DE NAVEGACION -->
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" 
+  aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <!-- LINKS DE AS PAGINAS SELECCIONABLES -->
+      <div class="navbar-nav">
+        <a class="nav-link active" aria-current="page" href="index.html" id="navletra">Inicio</a>
+        <a class="nav-link" href="pag_caja.html" id="navletra">Trabajos Realizados</a>
+        <a class="nav-link" href="contacto.html" id="navletra">Contacto</a>
+        <a class="nav-link" href="nosotros.html" id="navletra">Sobre nosotros</a>
+        <a class="nav-link" href="registro.html" id="navletra">Crear cuenta</a>
+  </div>
+</div>
+</div>
+</nav>
+      <!-- REGISTRO!! -->
+    
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 mx-auto">
+        <h1>Registro de datos</h1>
+<!-- Aquí empieza el formulario-->
+        <form id="registrocolor">
+          <!-- aqui estan todos los parametros que se piden -->
+          <div class="form-group">
+            <label for="rut">RUT:</label>
+            <input type="number" id="rut" name="rut" placeholder="ex: 41967969-6">
+          </div>
+
+          <div class="form-group">
+            <label for="nombres">Nombres:</label>
+            <input type="text" id="nombres" name="nombres">
+          </div>
+
+          <div class="form-group">
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" id="apellidos" name="apellidos">
+          </div>
+
+          <div class="form-group">
+            <label for="correo">Correo electrónico:</label>
+            <input type="email" id="correo" name="correo" placeholder="example@email.com">
+          </div>
+
+          <div class="form-group">
+            <label for="direccion">Dirección:</label>
+            <input type="direccion" id="direccion" name="direccion">
+          </div>
+
+          <div class="form-group">
+            <label for="foto">Foto de perfil:</label>
+            <input type="file" id="foto" name="foto" accept="image/*">
+          </div>
+
+          <div class="form-group">
+            <label for="contra">Contraseña:</label>
+            <input type="password" id="contra" name="contra">
+          </div>
+          
+          <div class="form-group">
+            <label for="recontra">Repetir contraseña:</label>
+            <input type="password" id="recontra" name="recontra">
+          </div> 
+            <!-- boton registrar -->
+          <input type="submit" value="Registrar" class="btn btn-success" onclick="return registrar()">
+
+          <!-- mensajes emergente de registro completado o no completado -->
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-7">
+                <div id="succes" style="display: none;"> registro completado, puedes volver al inicio.</div>
+                <div  id="error" style="display: block;"> </div>
+              </div>
+            </div>
+          </div>
+          
+          
+          
+        </form>
+      </div>
+    </div>
+  </div>
+  <footer class="bg-light text-center text-lg-start">
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2023 Copyright:
+    <a class="text-dark" href="#">Rayo Makween</a>
+    </div>
+    <!-- Copyright -->
+</footer>
+  <script src="js/scrips.js"></script>
+</body>
+</html>
